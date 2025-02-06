@@ -1,6 +1,7 @@
 {
   "version": 3,
   "targets": {
+<<<<<<< HEAD
     "net8.0": {
       "Humanizer.Core/2.14.1": {
         "type": "package",
@@ -2886,6 +2887,13 @@
       "Pomelo.EntityFrameworkCore.MySql >= 8.0.2",
       "Swashbuckle.AspNetCore >= 7.2.0"
     ]
+=======
+    "net8.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net8.0": []
+>>>>>>> master
   },
   "packageFolders": {
     "C:\\Users\\user1\\.nuget\\packages\\": {}
@@ -2893,11 +2901,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\user1\\Desktop\\תשפה\\פרויקטים בפרקטיקוד\\ToDo List\\TodoApi\\TodoApi.csproj",
       "projectName": "TodoApi",
       "projectPath": "C:\\Users\\user1\\Desktop\\תשפה\\פרויקטים בפרקטיקוד\\ToDo List\\TodoApi\\TodoApi.csproj",
       "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\user1\\Desktop\\תשפה\\פרויקטים בפרקטיקוד\\ToDo List\\TodoApi\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\user1\\Desktop\\תשפה\\פרויקטים בפרקטיקוד\\ToDo-List-main\\TodoApi\\TodoApi.csproj",
+      "projectName": "TodoApi",
+      "projectPath": "C:\\Users\\user1\\Desktop\\תשפה\\פרויקטים בפרקטיקוד\\ToDo-List-main\\TodoApi\\TodoApi.csproj",
+      "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user1\\Desktop\\תשפה\\פרויקטים בפרקטיקוד\\ToDo-List-main\\TodoApi\\obj\\",
+>>>>>>> master
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2908,6 +2924,10 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+<<<<<<< HEAD
+=======
+        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+>>>>>>> master
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2920,16 +2940,20 @@
         "warnAsError": [
           "NU1605"
         ]
+<<<<<<< HEAD
       },
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
+=======
+>>>>>>> master
       }
     },
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
+<<<<<<< HEAD
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -2956,6 +2980,8 @@
             "version": "[7.2.0, )"
           }
         },
+=======
+>>>>>>> master
         "imports": [
           "net461",
           "net462",
@@ -2967,6 +2993,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+<<<<<<< HEAD
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -2976,6 +3003,9 @@
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+>>>>>>> master
       }
     }
   }

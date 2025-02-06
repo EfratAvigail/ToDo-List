@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "LLOCR7X9W00=",
   "success": true,
   "projectFilePath": "C:\\Users\\user1\\Desktop\\תשפה\\פרויקטים בפרקטיקוד\\ToDo List\\TodoApi\\TodoApi.csproj",
@@ -56,5 +57,11 @@
     "C:\\Users\\user1\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
     "C:\\Users\\user1\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512"
   ],
+=======
+  "dgSpecHash": "Cpi2U0INWkNZmWKoUJPMyE6Y7p5tqKnUrevGGroyz3694DZlea0GqIXxxatsAEYn1IfgqFGqjCB2OnxFiJrHvw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user1\\Desktop\\תשפה\\פרויקטים בפרקטיקוד\\ToDo-List-main\\TodoApi\\TodoApi.csproj",
+  "expectedPackageFiles": [],
+>>>>>>> master
   "logs": []
 }
