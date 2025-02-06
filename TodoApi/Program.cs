@@ -127,6 +127,6 @@ app.MapDelete("/items/{id}", async (ToDoDbContext db, int id) =>
         return Results.Problem("An error occurred while deleting the item: " + ex.Message);
     }
 });
-app.MapGet("/",()=>"API is running");
+//app.MapGet("/",()=>"API is running");
 
 app.Run();
