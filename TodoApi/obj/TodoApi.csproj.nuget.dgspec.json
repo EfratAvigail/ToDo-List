@@ -1,19 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\user1\\Desktop\\תשפה\\פרויקטים בפרקטיקוד\\ToDo List\\TodoApi\\TodoApi.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\user1\\Desktop\\תשפה\\פרויקטים בפרקטיקוד\\ToDo List\\TodoApi\\TodoApi.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\Desktop\\תשפה\\פרויקטים בפרקטיקוד\\ToDo List\\TodoApi\\TodoApi.csproj",
-        "projectName": "TodoApi",
-        "projectPath": "C:\\Users\\user1\\Desktop\\תשפה\\פרויקטים בפרקטיקוד\\ToDo List\\TodoApi\\TodoApi.csproj",
-        "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\Desktop\\תשפה\\פרויקטים בפרקטיקוד\\ToDo List\\TodoApi\\obj\\",
-=======
     "C:\\Users\\user1\\Desktop\\תשפה\\פרויקטים בפרקטיקוד\\ToDo-List-main\\TodoApi\\TodoApi.csproj": {}
   },
   "projects": {
@@ -25,7 +12,6 @@
         "projectPath": "C:\\Users\\user1\\Desktop\\תשפה\\פרויקטים בפרקטיקוד\\ToDo-List-main\\TodoApi\\TodoApi.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\user1\\Desktop\\תשפה\\פרויקטים בפרקטיקוד\\ToDo-List-main\\TodoApi\\obj\\",
->>>>>>> master
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -36,10 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-<<<<<<< HEAD
-=======
           "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
->>>>>>> master
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -52,48 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
-<<<<<<< HEAD
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-=======
->>>>>>> master
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-<<<<<<< HEAD
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.2, )"
-            },
-            "Microsoft.IdentityModel.Tokens": {
-              "target": "Package",
-              "version": "[8.3.1, )"
-            },
-            "Pomelo.EntityFrameworkCore.MySql": {
-              "target": "Package",
-              "version": "[8.0.2, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[7.2.0, )"
-            }
-          },
-=======
->>>>>>> master
           "imports": [
             "net461",
             "net462",
@@ -105,19 +51,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-<<<<<<< HEAD
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
-=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
->>>>>>> master
         }
       }
     }
