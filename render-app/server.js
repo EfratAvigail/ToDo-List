@@ -5,6 +5,11 @@ const axios = require('axios'); // ייבוא Axios
 const app = express(); // יצירת מופע של Express
 const PORT = process.env.PORT || 3000; // הגדרת הפורט
 
+// Endpoint ברירת מחדל שמחזיר הודעה
+app.get('/', (req, res) => {
+    res.send('Welcome to the Render Apps API! Use /apps to get the list of apps.');
+});
+
 // Endpoint שמחזיר את רשימת האפליקציות
 app.get('/apps', async (req, res) => {
     try {
