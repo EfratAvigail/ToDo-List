@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 // Endpoint שמחזיר את רשימת האפליקציות
 app.get('/apps', async (req, res) => {
     try {
-        const response = await axios.get('https://api.render.com/v1/services', {
+        const response = await axios.get('https://render-app-u4bx.onrender.com', {
             headers: {
                 'Authorization': `rnd_BUpWyx2rhSToma0CErTw1zTEC0rs` // החלף ב-API Key שלך
             }
