@@ -1,23 +1,26 @@
-import express from 'express';
-import renderApi from '@api/render-api';
 
+
+const express = require('express');
+const axios = require('axios'); // נשתמש ב-Axios כדי לקרוא ל-API של Render
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// אימות מול Render API
-renderApi.auth('rnd_BUpWyx2rhSToma0CErTw1zTEC0rs');
-
-app.get('/', async (req, res) => {
-  try {
-    const { data } = await renderApi.listServices({ includePreviews: 'true', limit: '20' });
-    res.json(data);
-  } catch (err) {
-    console.error(err);
-    res.status(500).send('Error fetching data from Render API');
-  }
+// Endpoint של GET
+app.get('/apps', async (req, res) => {
+    try {
+        const response = await axios.get('https://api.render.com/v1/services', {
+            headers: {
+                'Authorization': "rnd_BUpWyx2rhSToma0CErTw1zTEC0rs" // החלף ב-API Key שלך
+            }
+        });
+        res.json(response.data);
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ message: 'Error fetching apps' });
+    }
 });
 
 // הפעלת השרת
 app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+    console.log(`Server is running on http://localhost:${PORT}`);
 });
