@@ -22,27 +22,20 @@ const api = {
     }
   },
 
-  addTask: async (name) => {
+  addTask: async(name) => {
     console.log('addTask', name);
     try {
-      const result = await axios.post(`${apiUrl}/items`, { name, isComplete: false });
-      return result.data;
-    } catch (err) {
-      console.error("Error adding task:", err);
-      throw err; // זרוק את השגיאה
+        const result = await axios.post('/items', { name });
+        return result.data;
+    } catch (error) {
+        console.error("Error adding task:", error.message);
+        throw error; // זרוק את השגיאה כדי שתוכל לטפל בה במקום אחר
     }
-  },
+},
 
-  setCompleted: async (id, isComplete) => {
-    console.log('setCompleted', { id, isComplete });
-    try {
-      const result = await axios.put(`${apiUrl}/items/${id}`, { isComplete });
-      return result.data;
-    } catch (err) {
-      console.error("Error updating task:", err);
-      throw err; // זרוק את השגיאה
-    }
-  },
+setCompleted: async (id, isComplete, name) => {
+    await axios.put(`/items/${id}`, { name: name, isComplete: isComplete });
+},
 
   deleteTask: async (id) => {
     console.log('deleteTask', id);
